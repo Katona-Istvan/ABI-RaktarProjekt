@@ -1,6 +1,0 @@
-@RaktarProjekt_HostAddress = http://localhost:5266
-
-GET {{RaktarProjekt_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
