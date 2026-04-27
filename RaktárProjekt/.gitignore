@@ -1,0 +1,44 @@
+# Frontend (React/Vite)
+Frontend/dist/
+Frontend/build/
+Frontend/.env.local
+Frontend/.env.*.local
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+
+# Dependencies (never version in git)
+node_modules/
+Frontend/node_modules/
+
+# Keep deterministic install metadata in git
+!Frontend/package-lock.json
+
+# Backend (.NET)
+Backend/**/bin/
+Backend/**/obj/
+Backend/.vs/
+Backend/.vscode/
+Backend/**/*.user
+Backend/**/*.log
+Backend/**/packages/
+
+# IDE
+.vscode/
+.vs/
+*.code-workspace
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+
+# Build artifacts
+dist/
+build/
+*.dll
+*.pdb
